@@ -3,7 +3,7 @@ package com.example.retrofit1;
 import com.google.gson.annotations.SerializedName;
 
 public class Comment {
-    private int postID;
+    private int postId;
     private int id;
     private String name;
     private String email;
@@ -11,8 +11,8 @@ public class Comment {
     @SerializedName("body")
     private String text;
 
-    public int getPostID() {
-        return postID;
+    public int getPostId() {
+        return postId;
     }
 
     public int getId() {
